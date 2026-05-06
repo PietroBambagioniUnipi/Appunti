@@ -1,0 +1,7 @@
+{
+  "openBehavior": "file:Welcome",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false
+}

@@ -1,0 +1,11 @@
+{
+  "vscode-editor:create": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ]
+}

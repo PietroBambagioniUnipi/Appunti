@@ -1,0 +1,41 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#d82c2c",
+      "directory": "INTERNET OF THINGS"
+    },
+    {
+      "type": "local",
+      "color": "#3750cd",
+      "directory": "CLOUD COMPUTING"
+    },
+    {
+      "type": "local",
+      "color": "#2db949",
+      "directory": "BUSINESS AND PROJECT MANAGEMENT"
+    },
+    {
+      "type": "local",
+      "color": "#859825",
+      "directory": "DATA MINING AND MACHINE LEARNING"
+    },
+    {
+      "type": "local",
+      "color": "#9c2eb2",
+      "directory": "GESTIONE DELL’INNOVAZIONE"
+    },
+    {
+      "type": "local",
+      "color": "#6b00b3",
+      "directory": "Eventi"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}
