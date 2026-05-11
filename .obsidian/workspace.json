@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERNET OF THINGS/esercizi/java application/java application.md",
+                "file": "CLOUD COMPUTING/Cloud Computing ITA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "java application"
-            }
-          },
-          {
-            "id": "e01b78e3d97f0ce2",
-            "type": "leaf",
-            "state": {
-              "type": "vscode-editor",
-              "state": {
-                "file": "INTERNET OF THINGS/esercizi/java application/udpclient.java"
-              },
-              "icon": "lucide-file",
-              "title": "udpclient"
+              "title": "Cloud Computing ITA"
             }
           }
         ]
@@ -215,14 +203,28 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "INTERNET OF THINGS/esercizi/java application/udpclient.java",
+    "CLOUD COMPUTING/z_eng/Cloud Computing.md",
+    "CLOUD COMPUTING/Cloud Computing ITA.md",
+    "CLOUD COMPUTING/Cloud Computing LAB ITA.md",
+    "CLOUD COMPUTING/Cloud Theory Lab ITA.md",
+    "Home.md",
+    "CLOUD COMPUTING/z_eng",
+    "CLOUD COMPUTING/Cloud.md",
+    "INTERNET OF THINGS/esercizi/coap/coap.md",
     "INTERNET OF THINGS/esercizi/java application/java application.md",
-    "INTERNET OF THINGS/esercizi/java application/udp server node/udp-server-node.c",
+    "INTERNET OF THINGS/esercizi/coap",
+    "CLOUD COMPUTING/lab/D-06-LAB-kubernetes-installation.md",
+    "DATA MINING AND MACHINE LEARNING/Data Mining and Machine Learning.md",
+    "INTERNET OF THINGS/esercizi/java application/udpclient.java",
     "INTERNET OF THINGS/Comandi.md",
+    "INTERNET OF THINGS/schedule/(Every F) IOT Adii1.md",
+    "INTERNET OF THINGS/Codice esempio/Codice esempio.md",
+    "CLOUD COMPUTING/z_eng/Cloud Theory Lab.md",
+    "CLOUD COMPUTING/z_eng/Cloud Computing LAB.md",
+    "INTERNET OF THINGS/esercizi/java application/udp server node/udp-server-node.c",
     "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/cooja server socket 01.png",
     "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/cooja server socket 02.png",
     "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/cooja server socket 03.png",
-    "Home.md",
     "INTERNET OF THINGS/esercizi/java application/udp server node/Makefile.md",
     "INTERNET OF THINGS/esercizi/java application/rpl-border-router/README.md",
     "INTERNET OF THINGS/esercizi/java application/rpl-border-router/project-conf.h",
@@ -231,29 +233,16 @@
     "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/watchdog.o",
     "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/vib-sensor.o",
     "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/uiplib.o",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/uipbuf.o",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/uip6.o",
     "INTERNET OF THINGS/esercizi/java application/rpl-border-router/Makefile.md",
     "INTERNET OF THINGS/esercizi/java application/rpl-border-router/README copia.md",
     "INTERNET OF THINGS/esercizi/java application/udpclient.md",
-    "INTERNET OF THINGS/Codice esempio/Codice esempio.md",
     "INTERNET OF THINGS/Codice esempio/Leds/Makefile.md",
     "INTERNET OF THINGS/Senza nome.canvas",
     "INTERNET OF THINGS/Codice esempio/Server & Client/code.md",
-    "CLOUD COMPUTING/Cloud.md",
-    "CLOUD COMPUTING/Cloud Computing.md",
-    "CLOUD COMPUTING/Cloud Theory Lab.md",
-    "CLOUD COMPUTING/Cloud Computing LAB.md",
     "LARGE SCALE AND MULTI SCRUCTURAL DATABASES/Large-Scale and Multi-Structured Databases.md",
     "DATA MINING AND MACHINE LEARNING/schedule/(Every R) Data mining Si7.md",
     "ai.md",
     "LARGE SCALE AND MULTI SCRUCTURAL DATABASES/RESTFUL API.md",
-    "CLOUD COMPUTING/lab/01-virtualization-workbook.md",
-    "CLOUD COMPUTING/lab/01-1-Full Virtualization with KVM libvirt.md",
-    "CLOUD COMPUTING/lab/02-container.md",
-    "CLOUD COMPUTING/lab/03-rest.md",
-    "CLOUD COMPUTING/lab/_VM dati.md",
-    "CLOUD COMPUTING/lab/04-message-queue-systems.md",
     "Untitled.canvas",
     "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501204634.png",
     "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501204522.png",
