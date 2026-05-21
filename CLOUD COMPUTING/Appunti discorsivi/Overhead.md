@@ -1,0 +1,1 @@
+In computing, overhead is the consumption of computing resources for aspects that are not directly related to achieving a desired goal. Overhead is required for more general processing and impacts achieving a more focused goal.

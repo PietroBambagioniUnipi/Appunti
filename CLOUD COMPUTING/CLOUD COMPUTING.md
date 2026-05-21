@@ -1,0 +1,20 @@
+Note collegate
+
+[[CLOUD COMPUTING/z_eng/Cloud Computing|Cloud Computing]]
+[[Cloud Computing ITA]]
+[[Cloud Theory Lab]]
+[[Cloud Computing LAB]]
+[[Cloud Computing LAB ITA]]
+[[Cloud Computing LAB ITA]]
+[[Cloud Theory Lab ITA]]
+[[_VM dati]]
+[[01-virtualization-workbook]]
+[[01-1-Full Virtualization with KVM libvirt]]
+[[02-container]]
+[[03-rest]]
+[[04-message-queue-systems]]
+[[D-06-LAB-kubernetes-installation]]
+
+[[(Every F) Cloud F7]]
+[[(Every M) Cloud Adii1]]
+[[(Every T) Cloud A26]]

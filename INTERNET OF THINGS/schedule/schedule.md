@@ -1,0 +1,1 @@
+[[(Every W) IOT Adii1]][[(Every M) IOT Adii1]][[(Every F) IOT Adii1]][[(Every R) IOT A12]]

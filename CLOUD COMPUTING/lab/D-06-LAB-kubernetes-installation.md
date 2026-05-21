@@ -92,9 +92,12 @@ minikube status
 ---
 
 ## Step 5 – Install kubectl and Query the Cluster
-
+installa una serie di comandi utili
 ```bash
 apt install snapd
+```
+
+```bash
 snap install kubectl --classic
 ```
 
@@ -120,9 +123,11 @@ Enable the metrics server and MetalLB (bare-metal load balancer):
 minikube addons enable metrics-server
 minikube addons enable metallb
 ```
+lb sta per load balancer
 
 Configure MetalLB (assigns the IP range it can hand out):
 
 ```bash
 minikube addons configure metallb
 ```
+in un vero deployment bisogna dargli i veri indirizzi ip pubblici delle macchine che andrà ad utilizzare

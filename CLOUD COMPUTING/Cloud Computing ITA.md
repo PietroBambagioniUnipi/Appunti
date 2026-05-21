@@ -1,5 +1,6 @@
 # 01 Storia del Cloud Computing
 
+
 - Il **Cloud Computing** è<font color="#ff0000"> un modello che permette accesso di rete sempre disponibile, conveniente</font> e *on-demand* <font color="#ff0000">a un insieme condiviso di risorse computazionali configurabili </font>(server, storage, rete, applicazioni), <font color="#ff0000">che possono essere allocate e rilasciate rapidamente con minimo sforzo gestionale.</font>
 
 - Non è una tecnologia nata improvvisamente, ma il risultato di un’evoluzione durata diversi decenni.
@@ -205,27 +206,34 @@
 ##### Roles
 - Esistono diversi ruoli nell’ecosistema cloud:
 ![[Pasted image 20260304101242.png]]
+![[utenti cloud]]
+##### Cloud Provider
+è l’organizzazione che ==fornisce risorse IT basate su cloud== (es. computing, storage, networking). 
+In genere progetta, implementa e gestisce una propria piattaforma cloud (es. AWS), occupandosi dell’infrastruttura e della sua manutenzione.
 
-- Il **Cloud Provider** è l’organizzazione che fornisce risorse IT basate su cloud (es. computing, storage, networking). 
-  In genere progetta, implementa e gestisce una propria piattaforma cloud (es. AWS), occupandosi dell’infrastruttura e della sua manutenzione.
+ ##### Cloud Consumer
+ è l’organizzazione o individuo che ==utilizza le risorse== offerte dal [[Cloud Computing ITA#Cloud Provider|provider]] tramite un contratto. 
+Può usare direttamente le risorse oppure sfruttarle per creare servizi propri. 
+<mark style="background:#fdbfff">Non coincide necessariamente con l’utente finale</mark>: può infatti rivendere servizi ad altri utenti.
 
-- Il **Cloud Consumer** è l’organizzazione o individuo che utilizza le risorse offerte dal provider tramite un contratto. 
-  Può usare direttamente le risorse oppure sfruttarle per creare servizi propri. 
-  Non coincide necessariamente con l’utente finale: può infatti rivendere servizi ad altri utenti.
+######  Cloud Resource Administrator
+==è responsabile della gestione operativa delle risorse cloud== (configurazione, monitoraggio, manutenzione). 
+==Può appartenere al cloud provider oppure al cloud consumer,== a seconda di chi ha il controllo delle risorse.
 
-- Il **Cloud Service Owner** è il soggetto che sviluppa e gestisce un servizio cloud sfruttando le risorse del provider. 
-  Il servizio è generalmente offerto a scopo di profitto, tipicamente tramite modello in abbonamento 
+#####  Cloud Service Owner
+è il soggetto che ==sviluppa e gestisce un servizio cloud sfruttando le risorse== del [[Cloud Computing ITA#Cloud Provider|provider]]. 
+Il servizio è generalmente offerto a scopo di profitto, tipicamente tramite modello in abbonamento 
 
-- Il **Cloud Resource Administrator** è responsabile della gestione operativa delle risorse cloud (configurazione, monitoraggio, manutenzione). 
-  Può appartenere al cloud provider oppure al cloud consumer, a seconda di chi ha il controllo delle risorse.
+######  Cloud Carrier
+è il soggetto che ==fornisce la connettività tra utenti e cloud== (es. Internet Service Provider come ILIAD). 
+Senza questo livello non sarebbe possibile accedere ai servizi cloud.
 
-- Il **Cloud Carrier** è il soggetto che fornisce la connettività tra utenti e cloud (es. Internet Service Provider come ILIAD). 
-  Senza questo livello non sarebbe possibile accedere ai servizi cloud.
+######  Cloud Auditor
+è una ==terza parte indipendente che valuta il sistema cloud==. 
+Si occupa principalmente di verificare sicurezza, performance e conformità.
 
-- Il **Cloud Auditor** è una terza parte indipendente che valuta il sistema cloud. 
-  Si occupa principalmente di verificare sicurezza, performance e conformità.
-
-- Il **Cloud Service User** è l’utente finale che utilizza concretamente il servizio cloud (es. utente di Google Drive).
+######  Cloud Service User
+è l==’utente finale che utilizza concretamente il servizio cloud== (es. utente di Google Drive).
 
 - Nota:
   - **Cloud Provider** e **Cloud Service Owner** sono spesso entità diverse,
@@ -274,13 +282,16 @@
 ---
 
 ##### Multi-tenancy
-- Approccio tradizionale:
-  - risorse limitate,
-  - poca personalizzazione dell'ambiente.
+
+ <font color="#f79646">Approccio tradizionale</font>:
+  - risorse limitate, 
+  - c'è un singolo amministratore -> poca personalizzazione dell'ambiente.
 
 - **Multi-tenancy**:
   - più utenti condividono la stessa infrastruttura,
   - ciascuno ha l’illusione di essere isolato.
+  - ==Ognuno è l'amministratore del propio sistema==
+<font color="#4bacc6">Approccio in cui più utenti condividono la stessa struttura, ciascuno con l'illusione di essere isolato dagli altri e di avere il completo controllo sulle risorse di base</font>
 
 - Analogia:
   - hotel (limitato) vs appartamento in affitto (personalizzabile).
@@ -288,7 +299,7 @@
 ---
 
 ##### Virtualization
-- Permette di creare una versione virtuale delle risorse.
+- ==Permette di creare una versione virtuale delle risorse==.
 
 - Obiettivo:
   - dare isolamento e flessibilità.
@@ -297,13 +308,13 @@
 
 - **Hardware virtualization**:
   - replica completa di un server,
-  - può eseguire un OS senza modifiche,
+  - ==può eseguire un OS senza modifiche==,
   - più OS sulla stessa macchina fisica.
 
 ---
 
 ##### Hypervisor
-- La virtualizzazione è gestita da una **virtualization layer**.
+- ==La virtualizzazione è gestita da una== **virtualization layer**.
 
 - Componente chiave: **Hypervisor (VM Manager)**:
   - crea e gestisce macchine virtuali.
@@ -337,9 +348,9 @@
 
 - Due tipi:
   - **Horizontal scaling**:
-    - aggiunta/rimozione VM.
+    - a==ggiunta/rimozione VM==.
   - **Vertical scaling**:
-    - aumento/riduzione risorse della VM.
+    - ==aumento/riduzione risorse della VM==.
 
 ![[Pasted image 20260304103535.png|300]]
 ![[Pasted image 20260304103540.png|300]]
@@ -388,18 +399,18 @@
 
 ##### Cloud computing benefits
 - Con il cloud:
-  - modello **utility-based (pay-per-use)**,
-  - risorse disponibili *on-demand* (anche automaticamente via software),
+  - <font color="#d83931">modello</font> **utility-based (pay-per-use)**,
+  - <font color="#d83931">risorse disponibili</font> *on-demand* (anche automaticamente via software),
   - **scalabilità dinamica**.
 
 - Vantaggi principali:
-  - riduzione costi iniziali,
-  - eliminazione di molti costi fissi,
+  - <font color="#d83931">riduzione costi iniziali</font>,
+  - <font color="#d83931">eliminazione di molti costi fissi</font>,
   - nessuna necessità di infrastruttura propria,
   - minore necessità di personale specializzato.
 
 - Riduzione costi complessiva:
-  - i provider operano su larga scala,
+  - <font color="#d83931">i provider operano su larga scala</font>,
   - acquistano hardware in bulk → costo unitario minore,
   - costi condivisi tra più clienti.
 
@@ -431,7 +442,7 @@
 
 ##### Cloudification
 - **Cloudification**:
-  - processo di migrazione di applicazioni e servizi non pensate per il cloud, verso il cloud.
+  - processo di migrazione di applicazioni e servizi <font color="#31859b">non pensate per il cloud</font>, verso il cloud.
 
 ![[Pasted image 20260304105027.png]]
 
@@ -447,8 +458,8 @@
 
 ##### Global scale services
 - Con approccio tradizionale:
-  - difficile gestire miliardi di utenti,
-  - traffico concentrato in un singolo data center → colli di bottiglia della rete (anche lato ISP).
+  - <font color="#f79646">difficile gestire miliardi di utenti</font>,
+  - <font color="#f79646">traffico concentrato in un singolo data center</font> → colli di bottiglia della rete (anche lato ISP).
 
 - Con il cloud:
   - più datacenter distribuiti,
@@ -521,14 +532,14 @@
 
 # 04 Cloud NIST model, service types and deployment models
 
-- La standardizzazione nel cloud è limitata:
+- La <font color="#e36c09">standardizzazione</font> nel cloud è <font color="#e36c09">limitata</font>:
   - tecnologia relativamente recente,
   - ogni provider usa soluzioni proprietarie.
 
 - I primi sforzi di standardizzazione non riguardano API o tecnologie,
   ma **terminologia e definizioni comuni**.
 
-- Nasce il modello del *NIST* (National Institute of Standards and Technology):
+- Nasce il modello del *<font color="#ff0000">NIST</font>* (National Institute of Standards and Technology):
   - definisce cosa è il cloud computing,
   - identifica componenti e concetti fondamentali.
 
@@ -553,7 +564,7 @@
 ---
 
 ##### Essential characteristics
-- Per essere considerato cloud, un sistema deve avere 5 caratteristiche:
+- <font color="#ff0000">Per essere considerato cloud, un sistema deve avere 5 caratteristiche</font>:
 
 - **Broad Network Access**:
   - accesso da qualsiasi luogo via rete.
@@ -605,13 +616,13 @@
 ![[Pasted image 20260306213201.png]]
 
 - Attori:
-  - Cloud Consumer
-  - Cloud Provider
-  - Cloud Auditor
-  - Cloud Carrier
-  - Cloud Broker
+  - [[#**Cloud Consumer**|Cloud Consumer]]
+  - [[#Cloud Provider|Cloud Provider]]
+  - [[#Cloud Auditor]]
+  - [[#Cloud Carrier]]
+  - [[#Cloud Broker]]
 
-- **Cloud Broker**:
+ ###### Cloud Broker:
   - intermediario tra consumer e provider,
   - acquista risorse in bulk,
   - le rivende a prezzo inferiore,
@@ -677,7 +688,7 @@
 ---
 
 ###### Community Cloud
-- Infrastruttura cloud condivisa tra più organizzazioni che hanno **esigenze comuni** 
+- <font color="#ff0000">Infrastruttura cloud condivisa tra più organizzazioni che hanno </font>**esigenze comuni** 
   (es. sicurezza, compliance, settore di attività).
 
 - Nasce come soluzione intermedia:
@@ -700,8 +711,8 @@
   - possibile uso di modelli *pay-per-use* interni alla comunità.
 
 - Svantaggi:
-  - meno scalabile rispetto al public cloud,
-  - necessità di coordinamento tra le organizzazioni,
+  - <font color="#ff0000">meno scalabile</font> rispetto al public cloud,
+  - <font color="#ff0000">necessità di coordinamento</font> tra le organizzazioni,
   - governance più complessa (decisioni condivise).
 
 - Deployment:
@@ -877,18 +888,18 @@
 
 # 05 Virtualization
 
-- **Virtualization** è la rappresentazione di risorse computazionali fisiche in forma virtuale tramite uno strato software.
+- **Virtualization** <font color="#ff0000">è la rappresentazione di risorse computazionali fisiche in forma virtuale tramite uno strato software</font>.
 
 - Idea base:
-  - esiste una risorsa fisica,
-  - viene creata una versione virtuale tramite software.
+  - <font color="#ff0000">esiste una risorsa fisica</font>,
+  - <font color="#ff0000">viene creata una versione virtuale tramite software</font>.
 
 - Questo software è chiamato **virtualization layer**:
   - si installa sopra la macchina fisica,
   - crea e gestisce le risorse virtuali.
 
 - Nel cloud:
-  - l’utente utilizza risorse virtuali come se fossero reali.
+  - <font color="#ff0000">l’utente utilizza risorse virtuali come se fossero reali.</font>
 
 - Effetto principale:
   - **decoupling** tra hardware fisico e utente,
@@ -940,8 +951,8 @@
 ---
 
 ##### Hypervisor
-- Il virtualization layer è un set di programmi che creano l'ambiente dove gireranno le VM
-- E' implementato tramite l’**Hypervisor** o **Virtual machine Monitor (VMM)**.
+- <font color="#ff0000">Il virtualization layer è un set di programmi che creano l'ambiente dove gireranno le VM</font>
+- E' implementato tramite [[#Hypervisor]] o **Virtual machine Monitor (VMM)**.
 
 - Funzioni:
   - crea e gestisce VM,
@@ -960,12 +971,12 @@
 - Due approcci:
 
 - **Hosted (Type 2)**:
-  - hypervisor sopra un sistema operativo,
+  - <font color="#ff0000">hypervisor sopra un sistema operativo</font>,
   - es. VirtualBox,
   - più compatibile ma con overhead.
 
 - **Bare Metal (Type 1)**:
-  - hypervisor direttamente su hardware,
+  - <font color="#ff0000">hypervisor direttamente su hardware</font>,
   - es. VMware ESX, Hyper-V,
   - meno overhead, più efficiente.
 
@@ -978,8 +989,8 @@
 
   - **Hosted (Type 2)**:
     - svantaggi:
-      - maggiore overhead → parte delle risorse è consumata dall’OS host,
-      - minore efficienza complessiva.
+      - <font color="#ff0000">maggiore</font> <font color="#ff0000">overhead</font> → parte delle risorse è consumata dall’OS host,
+      - <font color="#ff0000">minore efficienza complessiva</font>.
     - vantaggi:
       - maggiore compatibilità hardware,
       - più semplice da installare e usare,
@@ -987,21 +998,21 @@
 
   - **Bare Metal (Type 1)**:
     - vantaggi:
-      - minore overhead → accesso diretto all’hardware,
+      - minore overhead → <font color="#00b050">accesso diretto all’hardware</font>,
       - migliori performance.
     - svantaggi:
-      - maggiore complessità di implementazione,
-      - compatibilità hardware più limitata,
+      - <font color="#00b050">maggiore complessità di implementazione</font>,
+      - <font color="#00b050">compatibilità hardware più limitata</font>,
       - gestione più complessa.
 
 
 ---
 
 ##### Full Virtualization
-- L’hypervisor simula completamente l’hardware.
+- <font color="#00b050">L’hypervisor simula completamente l’hardware</font>.
 
 - Il guest OS:
-  - non sa di essere virtualizzato,
+  - <font color="#00b050">non sa di essere virtualizzato</font>,
   - funziona senza modifiche.
 
 - Vantaggi:
@@ -1015,19 +1026,18 @@
 
 ##### Para Virtualization
 - Riduce l’overhead della full virtualization.
-- Riduce le assunzioni riguardo all'OS che deve essere *non modificato* e *unaware*
+- <font color="#00b050">Riduce le assunzioni riguardo all'OS che deve essere *non modificato* e *unaware*</font>
 
 - Idea:
-  - modificare il sistema operativo guest,
-  - farlo collaborare con l’hypervisor.
+  - modificare il sistema operativo guest facendolo collaborare con l’hypervisor.
 
 - Caratteristiche:
   - alcune operazioni gestite dal guest OS,
   - maggiore efficienza.
 
 - Svantaggi:
-  - richiede OS modificati (**porting**),
-  - minore isolamento e sicurezza,
+  - <font color="#e36c09">richiede OS modificati</font> (**porting**),
+  - <font color="#e36c09">minore isolamento e sicurezza</font>,
   - meno compatibilità.
 
 ---
@@ -1036,14 +1046,14 @@
 - Evoluzione della full virtualization.
 
 - Idea:
-  - usare supporto hardware (CPU) per alcune operazioni.
+  -<font color="#4bacc6"> usare supporto hardware (CPU) per alcune operazioni</font>.
 
 - Vantaggi:
   - meno overhead,
   - esecuzione più veloce.
 
 - Limitazione:
-  - richiede hardware compatibile.
+  - <font color="#e36c09">richiede hardware compatibile</font>.
 
 ---
 
@@ -1061,12 +1071,12 @@
 ![[Pasted image 20260311135153.png]]
 
 - Vantaggi:
-  - molto leggero,
+  - <font color="#00b050">molto leggero</font>,
   - quasi zero overhead.
 
 - Svantaggi:
-  - tutti condividono lo stesso OS,
-  - isolamento minore,
+  - <font color="#e36c09">tutti condividono lo stesso OS</font>,
+  - i<font color="#e36c09">solamento minore</font>, il kernel è condiviso
   - problemi di sicurezza.
 
 ---
@@ -1082,16 +1092,16 @@
 
 ##### Emulation vs Virtualization
 - **Virtualization**:
-  - stessa architettura e instruction set della macchina fisica,
-  - le istruzioni possono essere eseguite quasi direttamente sulla CPU,
+  - <font color="#4bacc6">stessa architettura e instruction set della macchina fisica</font>,
+  - <font color="#00b050">le istruzioni possono essere eseguite quasi direttamente sulla CPU</font>,
   - minima o nessuna traduzione → **alte performance**,
-  - si crea una replica logica dell’hardware, non una simulazione completa.
+  - <font color="#fac08f">si crea una replica logica dell’hardware, non una simulazione completa</font>.
 
 - **Emulation**:
-  - architetture diverse (instruction set diverso),
+  - <font color="#4bacc6">architetture diverse</font> (instruction set diverso),
   - ogni istruzione deve essere:
-    - tradotta (*binary translation*), oppure
-    - interpretata a runtime,
+    - <font color="#e36c09">tradotta</font> (*binary translation*), oppure
+    - <font color="#e36c09">interpretata a runtime</font>,
   - comportamento completamente simulato → **molto più lenta**.
 
 - Differenza chiave:
@@ -1111,7 +1121,7 @@
 
 - Tecniche principali:
   - **Binary translation**:
-    - traduzione completa del codice binario,
+    - <font color="#4bacc6">traduzione completa del codice binario</font>,
     - più veloce dell’interpretazione ma complessa.
   - **Interpretation**:
     - esecuzione istruzione per istruzione,
@@ -1185,7 +1195,7 @@
 ---
 
 ##### VCPU Execution
-- Il VCPU è una struttura dati che contiene lo stato della CPU (registri).
+- <font color="#c0504d">Il VCPU è una struttura dati che contiene lo stato della CPU</font> (registri).
 
 - Esecuzione:
   - carico lo stato del VCPU nella CPU reale,
@@ -1263,7 +1273,7 @@
 ---
 
 ##### Virtual Memory
-- Ogni processo vede una memoria **virtuale**:
+- <font color="#9bbb59">Ogni processo vede una memoria</font> **virtuale**:
   - continua,
   - isolata,
   - che parte da indirizzo 0.
@@ -1999,7 +2009,7 @@
 ---
 
 ##### Paravirtualization – Implementation
-- Le API sono chiamate **Hypercalls**:
+- <font color="#c0504d">Le API sono chiamate</font> **Hypercalls**:
   - chiamate dirette al VMM,
   - eseguite in **modalità privilegiata** (kernel mode).
 
@@ -2009,12 +2019,12 @@
 ![[Pasted image 20260318191722.png|300]]
 
 - Pro:
-  - migliori performance,
+  - <font color="#c0504d">migliori performance</font>,
   - nessun supporto hardware necessario.
 
 - Contro:
-  - richiede OS modificati,
-  - difficile con OS closed-source,
+  - <font color="#c0504d">richiede OS modificati</font>,
+  - <font color="#c0504d">difficile con OS closed-source</font>,
   - meno flessibile.
 
 - Nota:
@@ -2094,13 +2104,13 @@
 
 ##### Container
 - I **container** sono ambienti isolati per processi:
-  - ogni applicazione è isolata,
+  - <font color="#c0504d">ogni applicazione è isolata</font>,
   - non accede alle altre,
-  - crede di essere l'unico in esecuzione sul sistema,
+  -<font color="#c0504d"> crede di essere l'unico in esecuzione sul sistema</font>,
   - sono un esempio di OS virtualization.
 
 - Caratteristiche:
-  - nessun kernel separato,
+  - <font color="#c0504d">nessun kernel separato</font>,
   - overhead minimo,
   - limitazione risorse possibile.
 
@@ -2278,7 +2288,7 @@
 ---
 
 ### High Availability Clusters
-- **High availability clusters**: sono cluster la cui funzionalità è cruciale per l'applicazione o per l'utente, le funzionalità dovrebbero essere disponibili in ogni momento
+- **High availability clusters**: <font color="#c0504d">sono cluster la cui funzionalità è cruciale per l'applicazione o per l'utente</font>, le funzionalità dovrebbero essere disponibili in ogni momento
 
 
 - Obiettivo: 
@@ -2301,7 +2311,7 @@
 ---
 
 ### Load-Balancing Clusters
-- **Load-Balancing Clusters**: l'obiettivo principale è supportare un carico che potrebbe aumentare in futuro, ottenere un elevato utilizzo del sistema e distribuire le richieste degli utenti.
+- **Load-Balancing Clusters**: <font color="#c0504d">l'obiettivo principale è supportare un carico che potrebbe aumentare in futuro</font>, ottenere un elevato utilizzo del sistema e distribuire le richieste degli utenti.
 
 - Obiettivo:
   - distribuire carico e scalare.
@@ -2667,17 +2677,17 @@
 ---
 
 ### WSDL – struttura
-- Un messaggio **WSDL** è un documento XML diviso in due sezioni:
+- Un messaggio **WSDL** <font color="#c0504d">è un documento XML diviso in due sezioni</font>:
 
   - **Service Interface Definition**:
-    - fornisce informazioni sul servizio in modo astratto,
+    -<font color="#c0504d"> fornisce informazioni sul servizio in modo astratto</font>,
     - include:
       - tipi di dati (*types*),
       - messaggi scambiati tra requestor e provider (*messages*),
       - operazioni disponibili (*portType*).
 
   - **Service Implementation Definition**:
-    - definisce come invocare concretamente le operazioni tramite HTTP,
+    - <font color="#c0504d">definisce come invocare concretamente le operazioni tramite HTTP</font>,
     - include:
       - modalità di trasferimento dei messaggi (*binding*),
       - modalità di accesso al servizio (*service*).
@@ -2687,16 +2697,16 @@
 ---
 
 ### WSDL - Componenti
-- **WSDL Type** può essere utilizzato per definire il tipo di dati usati come parametri di un servizio specifico  
-- **WSDL Messages** è usato per definire i messaggi scambiati tra il client e il Web Service  
-- **WSDL PortType** può essere utilizzato per collegare messaggi di input e output in un’unica operazione logica  
-- **WSDL Binding** è usato per specificare come i messaggi associati a una operazione (PortType) vengono scambiati  
-- **WSDL Service** è usato per specificare come l’operazione viene invocata concretamente, cioè l’URI associato al servizio  
+- **WSDL Type** può essere <font color="#c0504d">utilizzato per definire il tipo di dati usati come parametri</font> di un servizio specifico  
+- **WSDL Messages** è usato per <font color="#c0504d">definire i messaggi scambiati tra il client e il Web Service</font>  
+- **WSDL PortType** può essere utilizzato per <font color="#c0504d">collegare messaggi di input e output in un’unica operazione logica  </font>
+- **WSDL Binding** è usato per specificare <font color="#c0504d">come i messaggi associati a una operazione (PortType) vengono scambiati  </font>
+- **WSDL Service** è usato p<font color="#c0504d">er specificare come l’operazione viene invocata concretamente</font>, cioè l’URI associato al servizio  
 
 ---
 
 ### REST
-- L'archittettura SOAP e' complessa e non adatta a progetti di piccole e medie dimensioni.
+- L'archittettura <font color="#f79646">SOAP e' complessa</font> e <font color="#f79646">non adatta a progetti di piccole e medie dimensioni.</font>
 
 - REST e' un alternativa a SOAP:
   - più semplice e leggera,
@@ -3150,8 +3160,8 @@ Soluzione:
 - Il frontend comunica solo con il primary
 
 - Il primary:
-  → esegue richieste  
-  → propaga aggiornamenti
+  → <font color="#c0504d">esegue richieste</font>  
+  → <font color="#c0504d">propaga aggiornamenti</font>
 
 - Se fallisce:
   → un backup diventa primary
@@ -3159,7 +3169,7 @@ Soluzione:
 ![[Pasted image 20260411151641.png|300]]
 
 ⚠ Svantaggio:
-- spreco risorse (backup inattivi che non fanno niente)
+- <font color="#f79646">spreco risorse</font> (backup inattivi che non fanno niente)
 
 ---
 
@@ -3170,9 +3180,9 @@ Soluzione:
 
 2. **Coordination**
    - il primary:
-     → esegue in ordine  
+     → <font color="#c0504d">esegue in ordine</font>  
      → controlla duplicati  
-   - nessuna coordinazione
+   - <font color="#9bbb59">nessuna coordinazione</font>
 
 3. **Execution**
    - esecuzione + salvataggio risposta

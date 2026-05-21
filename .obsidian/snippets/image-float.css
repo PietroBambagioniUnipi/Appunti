@@ -1,0 +1,15 @@
+/* Float Images Right */
+img[alt*="right"] {
+    float: right;
+    clear: right;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+/* Float Images Left */
+img[alt*="left"] {
+    float: left;
+    clear: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}

@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "Cloud Computing ITA"
             }
+          },
+          {
+            "id": "d85262f1b708a6df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLOUD COMPUTING/Appunti discorsivi/Applicazioni Geograficamente Distribuite e Scalabilità Globale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Applicazioni Geograficamente Distribuite e Scalabilità Globale"
+            }
           }
         ]
       }
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +85,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Segnalibri"
             }
           }
         ]
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLOUD COMPUTING/Cloud Computing.md",
+                "file": "CLOUD COMPUTING/Appunti discorsivi/Nist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Cloud Computing"
+              "title": "Riferimenti a Nist"
             }
           },
           {
@@ -113,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "oral-questions.md",
+                "file": "CLOUD COMPUTING/Appunti discorsivi/Nist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from oral-questions"
+              "title": "Collegamenti in uscita da Nist"
             }
           },
           {
@@ -133,7 +147,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etichette"
             }
           },
           {
@@ -184,72 +198,73 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
+      "command-palette:Apri riquadro comandi": false,
       "graph:Apri vista grafo": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false,
       "canvas:Crea nuova lavagna": false,
       "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
       "bases:Crea nuova Base": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false,
-      "vscode-editor:Create Code File": false
+      "switcher:Apri selezione rapida": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CLOUD COMPUTING/z_eng/Cloud Computing.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Applicazioni Geograficamente Distribuite e Scalabilità Globale.md",
     "CLOUD COMPUTING/Cloud Computing ITA.md",
-    "CLOUD COMPUTING/Cloud Computing LAB ITA.md",
-    "CLOUD COMPUTING/Cloud Theory Lab ITA.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Virtualizzazione.md",
+    "CLOUD COMPUTING/CLOUD COMPUTING.md",
+    "CLOUD COMPUTING/z_eng/Cloud Computing.md",
     "Home.md",
-    "CLOUD COMPUTING/z_eng",
-    "CLOUD COMPUTING/Cloud.md",
-    "INTERNET OF THINGS/esercizi/coap/coap.md",
-    "INTERNET OF THINGS/esercizi/java application/java application.md",
-    "INTERNET OF THINGS/esercizi/coap",
-    "CLOUD COMPUTING/lab/D-06-LAB-kubernetes-installation.md",
-    "DATA MINING AND MACHINE LEARNING/Data Mining and Machine Learning.md",
-    "INTERNET OF THINGS/esercizi/java application/udpclient.java",
-    "INTERNET OF THINGS/Comandi.md",
-    "INTERNET OF THINGS/schedule/(Every F) IOT Adii1.md",
-    "INTERNET OF THINGS/Codice esempio/Codice esempio.md",
-    "CLOUD COMPUTING/z_eng/Cloud Theory Lab.md",
-    "CLOUD COMPUTING/z_eng/Cloud Computing LAB.md",
-    "INTERNET OF THINGS/esercizi/java application/udp server node/udp-server-node.c",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/cooja server socket 01.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/cooja server socket 02.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/cooja server socket 03.png",
-    "INTERNET OF THINGS/esercizi/java application/udp server node/Makefile.md",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/README.md",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/project-conf.h",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/border-router.c",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/webserver.o",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/watchdog.o",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/vib-sensor.o",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/build/cooja/obj/uiplib.o",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/Makefile.md",
-    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/README copia.md",
-    "INTERNET OF THINGS/esercizi/java application/udpclient.md",
-    "INTERNET OF THINGS/Codice esempio/Leds/Makefile.md",
-    "INTERNET OF THINGS/Senza nome.canvas",
-    "INTERNET OF THINGS/Codice esempio/Server & Client/code.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Architetture Cloud Scalabili e Replicazione Dati.md",
+    "_linked_images/images/cc message broker.png",
+    "_linked_images/images/cc message queue.png",
+    "CLOUD COMPUTING/Cloud Computing LAB ITA.md",
+    "_linked_images/images/Costbusiness.drawio.png",
+    "_linked_images/images/iot_conservazione_energia.drawio.png",
+    "_linked_images/images/Pasted image 20250225090548.png",
+    "_linked_images/images/Pasted image 20250225091044.png",
+    "_linked_images/images/Pasted image 20250225093652.png",
+    "_linked_images/images/Pasted image 20250225095522.png",
+    "_linked_images/images/Pasted image 20250225112409.png",
+    "_linked_images/images/Pasted image 20250226090632.png",
+    "Excalidraw/utenti cloud.md",
+    "LARGE SCALE AND MULTI SCRUCTURAL DATABASES/LARGE SCALE AND MULTI SCRUCTURAL DATABASES.md",
     "LARGE SCALE AND MULTI SCRUCTURAL DATABASES/Large-Scale and Multi-Structured Databases.md",
-    "DATA MINING AND MACHINE LEARNING/schedule/(Every R) Data mining Si7.md",
-    "ai.md",
-    "LARGE SCALE AND MULTI SCRUCTURAL DATABASES/RESTFUL API.md",
+    "DATA MINING AND MACHINE LEARNING/data mining.md",
+    "CLOUD COMPUTING/lab/04-message-queue-systems.md",
+    "INTERNET OF THINGS/Mqqt/Mqqt.md",
+    "INTERNET OF THINGS/Mqqt/Mosquitto.md",
+    "INTERNET OF THINGS/Mqqt/come usarlo.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Design delle Applicazioni Cloud.md",
+    "CLOUD COMPUTING/Cloud Theory Lab ITA.md",
+    "hypervisor.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Tecnologie di Virtualizzazione Paravirtualizzazione e Container.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Tecnologie di Virtualizzazione (Hardware Assisted Virtualization).md",
+    "CLOUD COMPUTING/Appunti discorsivi/Tecnologie di Virtualizzazione (Senza Supporto Hardware).md",
+    "CLOUD COMPUTING/Appunti discorsivi/Nist.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Dall'Architettura Classica al Cloud.md",
+    "CLOUD COMPUTING/Appunti discorsivi/Overhead.md",
+    "Risorse Utili/Docker.md",
+    "INTERNET OF THINGS/Codice esempio/UDP/print_ipv6_n_addresses.c",
+    "INTERNET OF THINGS/Codice esempio/Communication/ll_communication.c",
+    "Untitled.base",
     "Untitled.canvas",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501204634.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501204522.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501203731.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501203650.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501202535.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260501201633.png",
-    "_linked_images/02.5 Magistrale/01 First Year/Second Semester/immagini/Pasted image 20260422163600.png"
+    "INTERNET OF THINGS/esercizi/java application/rpl-border-router/webserver/httpd-simple.h",
+    "INTERNET OF THINGS/esercizi/java application/udpclient.java",
+    "INTERNET OF THINGS/esercizi/coap/Soluzione_prof/coap_server_led.c",
+    "INTERNET OF THINGS/esercizi/coap/Soluzione_prof/resources/res-leds.c",
+    "INTERNET OF THINGS/esercizi/coap/es_2/ex2.pdf",
+    "_linked_images/images",
+    "INTERNET OF THINGS/Codice esempio/Communication/try_to_communicate.c",
+    "INTERNET OF THINGS/Senza nome.canvas"
   ]
 }

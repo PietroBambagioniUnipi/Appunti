@@ -141,3 +141,19 @@ il file [[INTERNET OF THINGS/esercizi/java application/udpclient.java|udpclient.
     java UDPClient
     ```
     L'applicativo Java è ora in grado di instradare i pacchetti UDP attraverso l'interfaccia `tun0` creata nella Fase C, raggiungendo il server simulato in Cooja.
+
+
+
+–––File inclusi nella directory–––
+[[udpclient.java]]
+in rpb-border-router:  
+- webserver: [[webserver.c]] [[httpd-simple.h]] [[httpd-simple.h]]
+- [[border-router.c]]
+- [[INTERNET OF THINGS/esercizi/java application/rpl-border-router/Makefile|Makefile]]
+- [[INTERNET OF THINGS/esercizi/java application/rpl-border-router/project-conf.h|project-conf]]
+- [[README]]
+in udp server node: 
+- [[INTERNET OF THINGS/esercizi/java application/udp server node/Makefile|Makefile]]
+- [[udp-server-node.c]]
+
+
